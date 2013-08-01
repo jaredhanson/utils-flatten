@@ -1,13 +1,5 @@
 var flatten = require('../index');
 
-describe('utils-flatten', function() {
-    
-  it('should export function', function() {
-    expect(flatten).to.be.a('function');
-  });
-  
-});
-
 describe('flatten', function() {
   
   describe('a flat array with one elements', function() {
