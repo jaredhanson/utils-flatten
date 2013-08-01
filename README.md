@@ -1,5 +1,10 @@
 # utils-flatten
 
+[![Build](https://travis-ci.org/jaredhanson/utils-flatten.png)](http://travis-ci.org/jaredhanson/utils-flatten)
+[![Coverage](https://coveralls.io/repos/jaredhanson/utils-flatten/badge.png)](https://coveralls.io/r/jaredhanson/utils-flatten)
+[![Dependencies](https://david-dm.org/jaredhanson/utils-flatten.png)](http://david-dm.org/jaredhanson/utils-flatten)
+
+
 Flattens an array.
 
 ## Install
@@ -19,8 +24,6 @@ flatten(arr);
 
     $ npm install
     $ npm test
-
-[![Build Status](https://secure.travis-ci.org/jaredhanson/utils-flatten.png)](http://travis-ci.org/jaredhanson/utils-flatten)
 
 ## Credits
 
