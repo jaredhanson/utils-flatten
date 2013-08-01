@@ -31,10 +31,20 @@
     "mocha": "1.x.x",
     "chai": "1.x.x"
   },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
   "scripts": {
     "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
   },
-  "engines": {
-    "node": ">= 0.4.0"
+  "testling": {
+    "browsers": [
+      "chrome/latest"
+    ],
+    "harness" : "mocha",
+    "files": [
+      "test/bootstrap/testling.js",
+      "test/*.test.js"
+    ]
   }
 }
